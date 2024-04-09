@@ -106,6 +106,7 @@ a {
 /* Hero */
 .hero {
     margin-top: 60px;
+    margin-bottom: 207px;
 }
 
 .hero__row {
@@ -206,4 +207,49 @@ a {
     border-radius: 50%;
     filter: blur(150px);
     z-index: -1;
+}
+
+/* Brand Selection */
+.brand__row {
+    width: 100%;
+    height: 201px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 121px;
+    align-items: center;
+    background-color: #e2eddf;
+    border-radius: 100.5px;
+    color: var(--primary-color);
+}
+
+.brand-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.brand__google {
+    font-size: 3.1rem;
+    font-weight: 500;
+}
+.brand__slack {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.brand__agworld {
+    font-size: 2.6rem;
+    font-weight: 400;
+    margin-left: 14px;
+}
+.brand__riotinto {
+    font-family: "Sonsie One", system-ui;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 29.76px;
+    text-align: left;
+}
+.brand__heroku {
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 0.105em;
+    margin-left: 14px;
 }
