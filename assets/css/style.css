@@ -574,3 +574,133 @@ a {
     line-height: 1.72;
     color: #7d8188;
 }
+
+/* Process */
+.process {
+    margin: 115px 0 148px;
+}
+
+.process__subheader {
+    font-weight: 500;
+    line-height: 1.125;
+    color: #152427;
+}
+
+.process__subheader::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    background-color: #152427;
+    vertical-align: middle;
+    margin-right: 21px;
+}
+
+.process__header {
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.24;
+    color: #152427;
+    margin: 20px 0 81px;
+    width: 42.8%;
+}
+
+.process__header::after {
+    content: "";
+    display: inline-block;
+    width: 66px;
+    height: 2px;
+    background-color: #152427;
+    vertical-align: middle; /*work with line-height of parent */
+    margin-left: 10px;
+}
+
+.process__item {
+    border-image: linear-gradient(90deg, #fff 0%, #83a17d 50%, #fff 100%) 30 / 0
+        0 1px 0;
+    padding: 65px 41px 65px 20px;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.process__item:hover {
+    background-color: #e2eddf;
+    border-radius: 33px;
+    border-image: none;
+}
+
+.process__item:hover .process__desc {
+    opacity: 0;
+    cursor: default;
+}
+
+.process__item:hover .process__link {
+    visibility: visible;
+}
+
+.process__item:hover .process__img {
+    opacity: 1;
+}
+
+.process__item:hover .process__row {
+    padding-left: 10px;
+}
+
+.process__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s ease;
+}
+
+.process__order {
+    font-size: 7.2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.process__wrap {
+    margin-left: 64px;
+    margin-right: auto;
+    position: relative;
+}
+
+.process__title {
+    color: #152427;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.process__link {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #575d5e;
+    visibility: hidden;
+}
+
+.process__link:hover {
+    text-decoration: underline;
+}
+
+.process__desc {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #7d8188;
+    width: 50.17%;
+    transition: 0.2s ease;
+}
+
+.process__img {
+    position: absolute;
+    bottom: 0;
+    right: 92px;
+    opacity: 0;
+    transition: 0.2s ease;
+}
