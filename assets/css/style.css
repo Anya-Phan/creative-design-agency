@@ -395,3 +395,182 @@ a {
     color: #7d8188;
     padding: 0 18px;
 }
+
+/* About Us */
+.about__row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about__img {
+    width: 51.85%;
+    height: 557px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.about__img--left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 284px;
+    height: 480px;
+    border-radius: 210px;
+    object-fit: cover;
+    box-shadow: 0px 4px 234px 11px #3b894740;
+}
+
+.about__img--right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 284px;
+    height: 480px;
+    border-radius: 210px;
+    object-fit: cover;
+    box-shadow: 0px 4px 234px 11px #3b894740;
+}
+
+.about__askterisk {
+    position: absolute;
+    z-index: 1;
+    top: -31px;
+    left: 46px;
+}
+
+.about__card {
+    position: absolute;
+    bottom: 8px;
+    right: -9px;
+    width: 143px;
+    height: 144px;
+    background: #ffffff;
+    box-shadow: 0px 7px 54px 0px #9a9a9a40;
+    border-radius: 8px;
+    padding: 19px 22px 11px;
+}
+
+.abt-card__title {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #152427;
+}
+
+.abt-card__desc {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #575d5e;
+    margin: 6px 0 10px;
+    opacity: 0.4;
+}
+
+.abt-card__percent {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #152427;
+    margin-bottom: 3px;
+}
+
+.abt-card__bar {
+    display: block;
+}
+
+.abt-card__load {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: right;
+    color: #152427;
+    margin-bottom: 3px;
+}
+
+.abt-card__team {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team__text {
+    font-family: "Public Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #152427;
+}
+.team__list {
+    display: flex;
+}
+
+.team__avatar {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    object-fit: cover;
+    margin-left: -6px;
+    display: block;
+}
+
+.about__text {
+    margin-left: 64px;
+}
+
+.about__subtitle {
+    font-weight: 500;
+    line-height: 1.125;
+    color: #143c3c;
+}
+
+.about__subtitle::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    background-color: #152427;
+    vertical-align: middle;
+    margin-right: 21px;
+}
+
+.about__title {
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.24;
+    color: #143c3c;
+    margin: 20px 0 11px;
+}
+
+.about__desc {
+    font-weight: 500;
+    line-height: 1.625;
+    color: #7d8188;
+    margin-bottom: 36px;
+}
+
+.about__count {
+    display: flex;
+    gap: 24px;
+    border-bottom: 1px solid #83a17d;
+    padding-bottom: 20px;
+    margin-top: 38px;
+}
+
+.abt-count__percent {
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 1.24;
+    color: #152427;
+}
+
+.abt-count__desc {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.72;
+    color: #7d8188;
+}
