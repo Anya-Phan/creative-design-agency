@@ -645,6 +645,7 @@ a {
 
 .process__item:hover .process__img {
     opacity: 1;
+    pointer-events: auto;
 }
 
 .process__item:hover .process__row {
@@ -708,6 +709,7 @@ a {
     right: 92px;
     opacity: 0;
     transition: 0.2s ease;
+    pointer-events: none; /* user cannot interact */
 }
 
 /* Intro */
