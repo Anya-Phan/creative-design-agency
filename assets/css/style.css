@@ -63,7 +63,7 @@ a {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 /* Header */
@@ -959,6 +959,7 @@ a {
     font-weight: 500;
     line-height: 1.2;
     color: #575d5e;
+    margin-top: 8px;
 }
 
 /* Footer */
