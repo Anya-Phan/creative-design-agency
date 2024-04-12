@@ -174,6 +174,16 @@ a {
     align-items: center;
 }
 
+.hero__watch:hover .hero-watch__circle {
+    fill: var(--primary-color);
+    transition: 0.3s ease;
+}
+
+.hero__watch:hover .hero-watch__play-btn {
+    fill: #ffffff;
+    transition: 0.3s ease;
+}
+
 .hero-watch__text {
     margin-left: 9px;
     font-family: "Poppins", sans-serif;
